@@ -1,0 +1,157 @@
+.gallery-img{
+    width: 100%;
+    height: 397px;
+
+}
+.gallery-title-box{
+    height: 198px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #A7958B;
+    align-items: center;
+}
+.gallery-heading{
+    height: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    opacity: 72%;
+    letter-spacing: 3px;
+}
+.gallery-bio{
+    height: 21px;
+    opacity: 72%;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    
+}
+.gallery-container{
+    margin-top: 50px;
+}
+.gallery-footer-list{
+   
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 100% ;
+    
+}
+.gallery-footer{
+    width: 100%;
+    height: 94px;
+    opacity: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+
+}
+.gallery-footer-item{
+    height: 36px;
+    width: 140px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 576px) {
+  .gallery-title-box {
+    flex-direction: column;
+        align-items: center;
+        line-height: 1px;
+        
+        height: 50vh;
+  }
+
+  .gallery-heading {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .gallery-bio {
+    font-size: 14px;
+  }
+
+  
+  .gallery-container{
+    height: 70vh;
+  }
+
+  .gallery-img {
+    width: -webkit-fill-available;
+    height: auto;
+  }
+
+  .gallery-footer-list {
+    flex-direction: row;
+
+   
+    padding: 0;
+  }
+
+  .gallery-footer-item {
+    height: 36px;
+    text-align: center;
+    /* font-weight: 500; */
+    font-size: 9px;
+  }
+  .gallery-footer{
+    height: 70px;
+    background-color:#d9d2cd;
+    margin-top: 0;
+    
+  }
+  }
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+  .gallery-title-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .gallery-heading {
+    font-size: 20px;
+  }
+
+  .gallery-bio {
+    font-size: 15px;
+  }
+
+  .gallery-footer-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+/* Medium desktop */
+@media (min-width: 769px) and (max-width: 992px) {
+  .gallery-heading {
+    font-size: 22px;
+  }
+
+  .gallery-bio {
+    font-size: 16px;
+  }
+
+  .gallery-footer-list {
+    gap: 20px;
+  }
+}

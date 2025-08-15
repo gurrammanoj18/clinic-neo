@@ -1,0 +1,176 @@
+.footer-logo{
+    width: 163px;
+    margin-bottom: px;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+   
+    
+}
+.footer-1-text{
+    font-size: 14px;
+    font-weight: 275px;
+    font-style: extra-light ;
+    opacity: 70%;
+    padding-left: 150px;
+}
+.f-logo{
+     
+    margin-bottom: 20px;
+}
+.f-logos{
+     padding-top: 20px;
+}
+.footer-email{
+    height: 43px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 14px;
+    
+    opacity: 72%;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.footer-button{
+    height: 46px;
+    width: 310px;
+    opacity: 40%;
+    padding-left: 0;
+    letter-spacing: 3px;
+    border-width: 1px;
+    
+
+
+}
+.footer-end-text{
+    opacity: 80%;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.footer-end{
+    margin-top: 30px;
+}
+.footer{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 576px) {
+  .footer-container {
+    display: flex
+;
+        flex-direction: column;
+        left: column;
+        align-items: center;
+        /* text-align: center; */
+        gap: 20px;
+        padding: 15px;
+    }
+
+  .footer-1 {
+    width: 100%;
+  }
+
+  .footer-logo {
+    max-width: 120px;
+    height: auto;
+  }
+
+  .footer-1-text {
+    font-size: 14px;
+    padding-left: 0;
+  }
+
+  .f-logos {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-email {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+
+  .footer-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .footer-end-text {
+    font-size: 9px;
+        text-align: center;
+        padding-top: 10px;
+        opacity: 60%;
+  }
+  .footer-end{
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-1-text {
+    font-size: 15px;
+  }
+
+  .footer-email {
+    width: 80%;
+  }
+
+  .footer-button {
+    padding: 10px 15px;
+  }
+
+  .footer-end-text {
+    font-size: 13px;
+  }
+}
+
+/* Medium desktop */
+@media (min-width: 769px) and (max-width: 992px) {
+  .footer-container {
+    gap: 25px;
+  }
+
+  .footer-1-text {
+    font-size: 16px;
+  }
+
+  .footer-email {
+    width: 70%;
+  }
+
+  .footer-end-text {
+    font-size: 14px;
+  }
+}
