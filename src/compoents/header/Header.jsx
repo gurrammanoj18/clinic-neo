@@ -14,18 +14,18 @@ const Header = () => {
 
         <div className='main-container'>
         <ul className='header-list'>
-            <li ><a className='item'>Home</a></li>
-            <li ><a className='item'>About</a></li>
-            <li ><a className='item'>Services</a></li>
+            <li ><a href="/" className='item'>Home</a></li>
+            <li ><a  href="/" className='item'>About</a></li>
+            <li ><a href="/" className='item'>Services</a></li>
         </ul>
         <div className='logo'>
             <img className='img' src={logo} alt="Clinic Neo Logo" />
         </div>
 
         <div className='header-list'>
-            <li ><a className='item'>Contact</a></li>
-            <li ><a className='item'>Gallery</a></li>
-            <li ><a className='item'>Book online</a></li>
+            <li ><a href="/" className='item'>Contact</a></li>
+            <li ><a  href="/" className='item'>Gallery</a></li>
+            <li ><a href="/" className='item'>Book online</a></li>
         </div>
       </div>
     </div>
