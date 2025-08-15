@@ -1,8 +1,5 @@
 import React from 'react';
 import './explore.css';
-import category1 from '../../assets/explore1.png';
-import category2 from '../../assets/explore2.png'; 
-import category3 from '../../assets/explore3.png';
 
 const Explore = () => {
   return (
